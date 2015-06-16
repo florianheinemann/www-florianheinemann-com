@@ -1,0 +1,18 @@
+# Site settings
+title: Florian Heinemann
+subtitle: on innovation, networks, privacy, and organizations
+email: hello@florianheinemann.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the personal blog of Florian Heinemann who 
+  is a System Design and Management Fellow at MIT. He 
+  blogs about innovation, privacy, networks, complexity, 
+  and organization theory.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.florianheinemann.com" # the base hostname & protocol for your site
+twitter_username: thesumofall
+github_username:  florianheinemann
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+include: [.env, .static]
