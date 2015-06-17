@@ -15,4 +15,3 @@ github_username:  florianheinemann
 # Build settings
 markdown: kramdown
 highlighter: rouge
-include: [.env, .static]
