@@ -2,7 +2,7 @@
 layout: post
 title:  "Antifragility, Evolution, and Entrepreneurship"
 date:   2014-11-21 09:02:34
-categories: entrepreneuship
+categories: entrepreneurship
 ---
 
 Noubar Afeyan, a Sloan professor and founder of Flagship Ventures, recently argued during Harvard’s Spark conference that we should better distinguish between the term *entrepreneurship*, where “ship” implies a certain constancy, and *entrepreneuring*, which describes in his words the *process* of building up an enterprise and has a much stronger connotation of fluency and evolution. The idea of understanding the process of founding companies as a profession on its own that can be taught, serially applied, and improved upon is in my view an almost inevitable conclusion of the evolution of strategic management over the last century. The last 100 years have seen a substantial transition from managers seeing the world as predictable and their companies as self-contained to a focus on surviving in a highly complex, evolving, and interdepended world.
