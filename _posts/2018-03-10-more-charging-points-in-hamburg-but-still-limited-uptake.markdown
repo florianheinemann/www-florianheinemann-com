@@ -61,7 +61,7 @@ While it would be nice to see a bigger uptake of the public charging infrastruct
           stacked: false,
           title: {
             display: true,
-            text: 'Transactions at the public charging points in Hamburg'
+            text: 'Transactions at the public charging points in Hamburg (derived from data of Stromnetz Hamburg)'
           },
           scales: {
               yAxes: [{

@@ -61,7 +61,7 @@ Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es 
           stacked: false,
           title: {
             display: true,
-            text: 'Ladevorgänge an den öffentlichen Ladesäulen in Hamburg'
+            text: 'Ladevorgänge an den öffentlichen Ladesäulen in Hamburg (abgeleitet aus Daten der Stromnetz Hamburg)'
           },
           scales: {
               yAxes: [{
