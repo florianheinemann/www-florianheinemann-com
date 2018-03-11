@@ -15,7 +15,9 @@ Striking are the low absolute numbers. At just ~1 daily transaction per station,
 
 While it would be nice to see a bigger uptake of the public charging infrastructure, it is great to see that the city of Hamburg is willing to invest for the long-term. More so, it is commendable that Hamburg decided to not just focus on the sweet spots in the city center but to also build locations outside the center. This should greatly help to make the case to the public that Hamburg is ready for the growth in e-Mobility.
 
+<div class="chart-container" style="position: relative; min-height:400px">
 <canvas id="chargingChart1"></canvas>
+</div>
 <script>
   window.chartColors = {
     red: 'rgb(255, 99, 132)',
@@ -29,6 +31,7 @@ While it would be nice to see a bigger uptake of the public charging infrastruct
   var ctx = document.getElementById("chargingChart1").getContext('2d');
   Chart.defaults.global.defaultFontSize = 16;
   Chart.defaults.global.defaultFontColor = '#111';
+  Chart.defaults.global.maintainAspectRatio = false;
   var chargingChart1 = new Chart(ctx, {
       type: 'line',
       data: {
@@ -61,7 +64,7 @@ While it would be nice to see a bigger uptake of the public charging infrastruct
           stacked: false,
           title: {
             display: true,
-            text: 'Transactions at the public charging points in Hamburg (derived from data of Stromnetz Hamburg)'
+            text: 'Transactions at the public charging points in Hamburg'
           },
           scales: {
               yAxes: [{
@@ -91,6 +94,8 @@ While it would be nice to see a bigger uptake of the public charging infrastruct
       }
   });
 </script>
+
+Source: Stromnetz Hamburg[^1]
 
 [^1]: Ladeinfrastruktur und Netzintegration, 5. Fachkonferenz Elektromobilität vor Ort, 27. Feb 2018 Leipzig
 

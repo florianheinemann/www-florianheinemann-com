@@ -15,7 +15,9 @@ Nicht überraschend bei diesen Zahlen ist die Anzahl der Ladevorgänge pro Stati
 
 Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es doch erfreuend zu sehen, dass die Stadt Hamburg bereit ist langfristig zu investieren. Dass die Stadt sich auch auf weniger genutzte Standorte außerhalb des Zentrums konzentriert, wird sicherlich über die nächsten Jahre die Akzeptanz der Elektromobilität weiter erhöhen.
 
+<div class="chart-container" style="position: relative; min-height:400px">
 <canvas id="chargingChart1"></canvas>
+</div>
 <script>
   window.chartColors = {
     red: 'rgb(255, 99, 132)',
@@ -29,6 +31,7 @@ Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es 
   var ctx = document.getElementById("chargingChart1").getContext('2d');
   Chart.defaults.global.defaultFontSize = 16;
   Chart.defaults.global.defaultFontColor = '#111';
+  Chart.defaults.global.maintainAspectRatio = false;
   var chargingChart1 = new Chart(ctx, {
       type: 'line',
       data: {
@@ -61,7 +64,7 @@ Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es 
           stacked: false,
           title: {
             display: true,
-            text: 'Ladevorgänge an den öffentlichen Ladesäulen in Hamburg (abgeleitet aus Daten der Stromnetz Hamburg)'
+            text: 'Ladevorgänge an den öffentlichen Ladesäulen in Hamburg'
           },
           scales: {
               yAxes: [{
@@ -91,6 +94,8 @@ Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es 
       }
   });
 </script>
+
+Quelle: Stromnetz Hamburg[^1]
 
 [^1]: Ladeinfrastruktur und Netzintegration, 5. Fachkonferenz Elektromobilität vor Ort, 27. Feb 2018 Leipzig
 
