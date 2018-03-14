@@ -1,0 +1,49 @@
+Day,Time,Station,Max capacity,Utilization,Car 1,Car 2
+10-Mar-18,17:00,209,2,2,Other private,Other private
+10-Mar-18,17:05,220,2,2,HH,HH
+10-Mar-18,17:09,223,2,1,Drive Now,
+10-Mar-18,17:16,414,2,1,HH,
+10-Mar-18,17:18,292,2,1,HH,
+10-Mar-18,17:27,53,2,1,Drive Now,
+10-Mar-18,17:45,222,2,1,HH,
+10-Mar-18,17:47,468,2,1,Yellow,
+10-Mar-18,17:48,248,2,1,Drive Now,
+11-Mar-18,9:59,47,2,1,HH,
+11-Mar-18,13:15,14,2,1,KI,
+11-Mar-18,13:18,234,2,1,HH,
+11-Mar-18,13:24,18,2,1,HH,
+11-Mar-18,13:31,249,2,1,Drive Now,
+11-Mar-18,13:36,23,2,1,Drive Now,
+11-Mar-18,13:45,309,2,1,HH,
+11-Mar-18,13:54,518,2,1,Yellow,
+11-Mar-18,13:56,260,2,2,HH,Drive Now
+11-Mar-18,14:22,209,2,1,Drive Now,
+11-Mar-18,14:27,402,2,1,Drive Now,
+11-Mar-18,17:47,374,2,1,Drive Now,
+12-Mar-18,9:13,374,2,1,WL,
+12-Mar-18,13:55,355,2,1,OD,
+12-Mar-18,14:09,904,4,2,HH,HH
+12-Mar-18,14:16,243,2,2,HH,HH
+12-Mar-18,14:23,374,2,1,HH,Non-German: Netherlands
+12-Mar-18,17:26,398,2,2,HH,NI
+12-Mar-18,20:37,372,2,1,HH,
+12-Mar-18,20:58,221,2,1,HH,
+12-Mar-18,21:03,9,2,1,PI,
+12-Mar-18,21:04,258,2,1,PI,
+12-Mar-18,21:08,446,2,1,HH,
+12-Mar-18,21:14,268,2,1,HH,
+12-Mar-18,21:16,403,2,1,UN,
+12-Mar-18,21:20,438,2,1,SE,
+12-Mar-18,21:25,320,2,1,HH,
+12-Mar-18,21:30,225,2,1,HH,
+12-Mar-18,21:36,391,2,2,Drive Now,Drive Now
+12-Mar-18,21:42,469,2,2,Drive Now,MED
+12-Mar-18,21:46,414,2,1,HH,
+12-Mar-18,21:50,480,2,1,Drive Now,
+12-Mar-18,21:52,375,2,1,Drive Now,
+12-Mar-18,22:01,374,2,1,Drive Now,
+14-Mar-18,13:52,355,2,1,NF,
+14-Mar-18,13:56,236,2,2,HH,Drive Now
+14-Mar-18,13:59,374,2,1,HH,
+,,,,,,
+Source: Florian Heinemann - personal data collection,,,,,,

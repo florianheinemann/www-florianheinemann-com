@@ -74,6 +74,10 @@ Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es 
                 ticks: {
                   beginAtZero: true
                 },
+              	scaleLabel: {
+                	display: true,
+                  labelString: 'Standorte'
+                },
                 id: 'y-axis-1'
               }, {
                 type: 'linear', 
@@ -82,6 +86,10 @@ Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es 
                 position: 'right',
                 ticks: {
                   beginAtZero: true
+                },
+              	scaleLabel: {
+                	display: true,
+                  labelString: 'Ladevorgänge / Standort / Tag'
                 },
                 id: 'y-axis-2',
 
@@ -95,7 +103,7 @@ Auch wenn man sich eine breitere Nutzung der Stationen wünschen würde, ist es 
   });
 </script>
 
-Quelle: Stromnetz Hamburg[^1]
+_Quelle: Stromnetz Hamburg[^1]_
 
 [^1]: Ladeinfrastruktur und Netzintegration, 5. Fachkonferenz Elektromobilität vor Ort, 27. Feb 2018 Leipzig
 

@@ -74,6 +74,10 @@ While it would be nice to see a bigger uptake of the public charging infrastruct
                 ticks: {
                   beginAtZero: true
                 },
+              	scaleLabel: {
+                	display: true,
+                  labelString: 'Locations'
+                },
                 id: 'y-axis-1'
               }, {
                 type: 'linear', 
@@ -82,6 +86,10 @@ While it would be nice to see a bigger uptake of the public charging infrastruct
                 position: 'right',
                 ticks: {
                   beginAtZero: true
+                },
+              	scaleLabel: {
+                	display: true,
+                  labelString: 'Transactions / location / day'
                 },
                 id: 'y-axis-2',
 
@@ -95,7 +103,7 @@ While it would be nice to see a bigger uptake of the public charging infrastruct
   });
 </script>
 
-Source: Stromnetz Hamburg[^1]
+_Source: Stromnetz Hamburg[^1]_
 
 [^1]: Ladeinfrastruktur und Netzintegration, 5. Fachkonferenz Elektromobilität vor Ort, 27. Feb 2018 Leipzig
 
