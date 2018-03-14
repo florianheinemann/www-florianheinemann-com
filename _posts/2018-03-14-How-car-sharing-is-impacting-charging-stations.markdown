@@ -162,7 +162,7 @@ But how does that compare to the number of electric cars on the road? Turns out 
 
 _Source: Personal data collection and data of the city of Hamburg[^1]_
 
-Surely, you'll say that car sharing vehicles have -- on average -- higher mileage. And you'd be correct. The average car in Germany is driven ~14,000km every year.[^2] Statistics for car sharing vehicles are more difficult to come by. However, DriveNow claims their cars are utilized for 3-5h per day.[^3] Combine this with data from Berlin from 2015 that claims that the average trip takes 18min for 8km[^4] and you end up with 80-133km per day or 29,000-48,000km per year. On average, that's about  **~2.75x as many kilometers as private vehicles.** Assuming that EVs/PHEVs drive as much as regular cars (maybe a bit optimistic?), we can now compare apples to apples:
+Surely, you'll say that car sharing vehicles have -- on average -- higher mileage. And you'd be correct. The average car in Germany is driven ~14,000km each year.[^2] Statistics for car sharing vehicles are more difficult to come by. However, DriveNow claims their cars are utilized for 3-5h per day.[^3] Combine this with data from Berlin from 2015 that claims that the average trip takes 18min for 8km[^4] and you end up with 80-133km per day or 29,000-48,000km per year. On average, that's about  **~2.75x as many kilometers as private vehicles.** Assuming that EVs/PHEVs drive as much as regular cars (maybe a bit optimistic?), we can now compare apples to apples:
 
 <div class="chart-container" style="position: relative; min-height:400px">
 <canvas id="chargingChart3"></canvas>
