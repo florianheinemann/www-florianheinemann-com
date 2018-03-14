@@ -5,7 +5,7 @@ date:   2018-03-14 11:05:31
 categories: eMobility
 ---
 
-Casual observers of the public charging infrastructure in Hamburg will note that many of the spots are taken by car sharing companies -- specifically by [DriveNow and their i3s](https://www.drive-now.com/de/de/cars/bmw-i3). But **for how many cars do they really account?** In short: **It's about a third**. This is based on 56 personal observations across the inner city of Hamburg. 
+Casual observers of the public charging infrastructure in Hamburg will note that many of the spots are taken by car sharing companies -- specifically by [DriveNow and their i3s](https://www.drive-now.com/de/de/cars/bmw-i3). But **for how many charging transactions do they really account?** In short: **It's about a third**. This is based on 56 personal observations across the inner city of Hamburg. 
 
 <div class="chart-container" style="position: relative; min-height:400px">
 <canvas id="chargingChart1"></canvas>
